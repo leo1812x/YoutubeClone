@@ -1,0 +1,119 @@
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 70px;
+    max-width: 600px;
+    align-items: center;
+
+}
+
+.right-section{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-bar{
+    display: flex;
+    height: 57px;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    right: 0;
+    left: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(188, 188, 188);
+}
+.hamburger-menu{
+    width: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.youtube-logo{
+    height: 20px;
+}
+
+.search-box{
+    height: 42px;
+    flex: 1;
+    padding-left: 12px;
+    font-size: 16px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgb(116, 116, 116);
+    box-shadow: inset;
+    border-width: 0.1px;
+    max-width: 600px;
+    width: 0px;
+    background: blue;
+}
+
+.search-box::placeholder{
+    font-size: 16px;
+}
+
+.search-button{
+    display: flex;
+    height: 45.2px;
+    margin-right: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left-style: none;
+    border-width: 0.1px;
+    width: 60px;
+    justify-content: center;
+}
+
+.search-img{
+    align-self: center;
+    width: 24px;
+}
+
+.microphone-button{
+    border-radius: 50%;
+    border-width: 0.1px;
+    height: 45.2px;
+    width: 45.2px;
+    padding: 0px;
+    border-style: none;
+
+    
+}
+
+.upload-button{
+    display: flex;
+    border-style: none;
+    background-color: white;
+    align-items: center;
+}
+
+.icon{
+    width: 24px;
+}
+
+.button{
+    display: flex;
+    border-style: none;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70px;
+    padding: 0;
+}
+
+.icon-profile{
+    width: 32px;
+}
+
+

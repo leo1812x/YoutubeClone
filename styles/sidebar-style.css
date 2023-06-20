@@ -1,0 +1,31 @@
+.side-bar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 57.8px;
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+    padding-top: 18px;
+    background-color: white;
+}
+
+.side-button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-style: none;
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.icon-p{
+    margin-top: 5px;
+    font-size: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}

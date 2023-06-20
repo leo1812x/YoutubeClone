@@ -1,0 +1,55 @@
+.video-img{
+    width: 100%;
+}
+
+.videos-holder{
+    background-color: rgb(242, 241, 241);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding-top: 20px;
+    padding-left: 36.5px;
+}
+
+.video-title{
+    font-weight: bold;
+    margin-bottom: 6px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.video-description{
+    margin-top: 6px;
+    margin-bottom: 1px;
+}
+
+.video-data{
+    margin-top: 6px;
+}
+
+.channel-img{
+    border-radius: 50px;
+    width: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.channel-img-div{
+    display: inline-block;
+    margin-top: 5px;
+
+}
+
+.video-info{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px
+
+}
+
+.video-bottom{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 12px;
+}
