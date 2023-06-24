@@ -2,13 +2,14 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    top: 57.8px;
+    top: 56.8px;
     width: 72px;
     display: flex;
     flex-direction: column;
-    row-gap: 22px;
+    row-gap: 36px;
     padding-top: 18px;
     background-color: white;
+    z-index: 2;
 }
 
 .side-button{

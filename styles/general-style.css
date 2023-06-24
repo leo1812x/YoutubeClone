@@ -3,3 +3,48 @@ body{
     padding-top: 57.8px;
     padding-left: 57.8px;
 }
+
+.search-button .top-tooltip{
+    position: absolute;
+    bottom: -30px;
+    font-size: 12px;
+    background-color: #6f6f6f;
+    padding: 8px;
+    border-radius: 2px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.4s;
+    pointer-events: none;
+}
+
+.microphone-button .top-tooltip{
+    position: absolute;
+    bottom: -36px;
+    font-size: 12px;
+    background-color: #6f6f6f;
+    padding: 8px;
+    border-radius: 2px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.4s;
+    pointer-events: none;
+}
+
+.button .top-tooltip{
+    position: absolute;
+    bottom: -46px;
+    font-size: 12px;
+    background-color: #6f6f6f;
+    padding: 8px;
+    border-radius: 2px;
+    color: white;
+    opacity: 0;
+    transition: 0.4s;
+    pointer-events: none;
+}
+
+.button:hover .top-tooltip,
+.microphone-button:hover .top-tooltip,
+.search-button:hover .top-tooltip{
+    opacity: 1;
+}
